@@ -6,7 +6,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # Quick production settings
 SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-prod-key-123')
-DEBUG = False
+DEBUG = True
 ALLOWED_HOSTS = ['*'] # Allows Render to access the service safely
 
 INSTALLED_APPS = [
